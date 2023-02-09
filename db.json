@@ -1,4 +1,8 @@
 {
-  "endpoint": "https://auth.kabu.co.jp",
-  "healthy": true
- }
+  "healthcheck": [
+    {
+      "endpoint": "https://auth.kabu.co.jp",
+      "healthy": true
+    }
+    ]
+}
